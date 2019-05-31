@@ -1,18 +1,28 @@
-﻿FROM microsoft/dotnet:2.2-sdk AS build-env
+FROM mcr.microsoft.com/dotnet/core/sdk:2.2 AS build
 WORKDIR /app
 
-# Copy csproj and restore as distinct layers
-COPY src/*.csproj ./
+# copy csproj and restore as distinct layers
+COPY dotnetapp/*.csproj ./dotnetapp/
+COPY utils/*.csproj ./utils/
+WORKDIR /app/dotnetapp
 RUN dotnet restore
 
-# Copy everything else and build
-COPY . ./
+# copy and publish app and libraries
+WORKDIR /app/
+COPY dotnetapp/. ./dotnetapp/
+COPY utils/. ./utils/
+WORKDIR /app/dotnetapp
 RUN dotnet publish -c Release -o out
 
-# Build runtime image
-#FROM microsoft/dotnet:aspnetcore-runtime
-WORKDIR /app
-#COPY --from=publish /app .
-ENTRYPOINT ["dotnet", "DockerTest01.dll"]
 
-#COPY app/bin/Release/netcoreapp2.2/publish/ app/
+# test application -- see: dotnet-docker-unit-testing.md
+FROM build AS testrunner
+WORKDIR /app/tests
+COPY tests/. .
+ENTRYPOINT ["dotnet", "test", "--logger:trx"]
+
+
+FROM mcr.microsoft.com/dotnet/core/runtime:2.2 AS runtime
+WORKDIR /app
+COPY --from=build /app/dotnetapp/out ./
+ENTRYPOINT ["dotnet", "dotnetapp.dll"]

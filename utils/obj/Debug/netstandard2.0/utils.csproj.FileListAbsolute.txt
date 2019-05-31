@@ -1,0 +1,9 @@
+X:\Development MP\IPCA Project\DockerTest02\dotnet-docker\samples\dotnetapp\utils\bin\Debug\netstandard2.0\utils.deps.json
+X:\Development MP\IPCA Project\DockerTest02\dotnet-docker\samples\dotnetapp\utils\bin\Debug\netstandard2.0\utils.dll
+X:\Development MP\IPCA Project\DockerTest02\dotnet-docker\samples\dotnetapp\utils\bin\Debug\netstandard2.0\utils.pdb
+X:\Development MP\IPCA Project\DockerTest02\dotnet-docker\samples\dotnetapp\utils\obj\Debug\netstandard2.0\utils.csprojAssemblyReference.cache
+X:\Development MP\IPCA Project\DockerTest02\dotnet-docker\samples\dotnetapp\utils\obj\Debug\netstandard2.0\utils.csproj.CoreCompileInputs.cache
+X:\Development MP\IPCA Project\DockerTest02\dotnet-docker\samples\dotnetapp\utils\obj\Debug\netstandard2.0\utils.AssemblyInfoInputs.cache
+X:\Development MP\IPCA Project\DockerTest02\dotnet-docker\samples\dotnetapp\utils\obj\Debug\netstandard2.0\utils.AssemblyInfo.cs
+X:\Development MP\IPCA Project\DockerTest02\dotnet-docker\samples\dotnetapp\utils\obj\Debug\netstandard2.0\utils.dll
+X:\Development MP\IPCA Project\DockerTest02\dotnet-docker\samples\dotnetapp\utils\obj\Debug\netstandard2.0\utils.pdb

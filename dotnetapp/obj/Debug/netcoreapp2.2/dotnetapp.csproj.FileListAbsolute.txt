@@ -1,0 +1,14 @@
+X:\Development MP\IPCA Project\DockerTest02\dotnet-docker\samples\dotnetapp\dotnetapp\bin\Debug\netcoreapp2.2\dotnetapp.deps.json
+X:\Development MP\IPCA Project\DockerTest02\dotnet-docker\samples\dotnetapp\dotnetapp\bin\Debug\netcoreapp2.2\dotnetapp.runtimeconfig.json
+X:\Development MP\IPCA Project\DockerTest02\dotnet-docker\samples\dotnetapp\dotnetapp\bin\Debug\netcoreapp2.2\dotnetapp.runtimeconfig.dev.json
+X:\Development MP\IPCA Project\DockerTest02\dotnet-docker\samples\dotnetapp\dotnetapp\bin\Debug\netcoreapp2.2\dotnetapp.dll
+X:\Development MP\IPCA Project\DockerTest02\dotnet-docker\samples\dotnetapp\dotnetapp\bin\Debug\netcoreapp2.2\dotnetapp.pdb
+X:\Development MP\IPCA Project\DockerTest02\dotnet-docker\samples\dotnetapp\dotnetapp\bin\Debug\netcoreapp2.2\utils.dll
+X:\Development MP\IPCA Project\DockerTest02\dotnet-docker\samples\dotnetapp\dotnetapp\bin\Debug\netcoreapp2.2\utils.pdb
+X:\Development MP\IPCA Project\DockerTest02\dotnet-docker\samples\dotnetapp\dotnetapp\obj\Debug\netcoreapp2.2\dotnetapp.csprojAssemblyReference.cache
+X:\Development MP\IPCA Project\DockerTest02\dotnet-docker\samples\dotnetapp\dotnetapp\obj\Debug\netcoreapp2.2\dotnetapp.csproj.CoreCompileInputs.cache
+X:\Development MP\IPCA Project\DockerTest02\dotnet-docker\samples\dotnetapp\dotnetapp\obj\Debug\netcoreapp2.2\dotnetapp.AssemblyInfoInputs.cache
+X:\Development MP\IPCA Project\DockerTest02\dotnet-docker\samples\dotnetapp\dotnetapp\obj\Debug\netcoreapp2.2\dotnetapp.AssemblyInfo.cs
+X:\Development MP\IPCA Project\DockerTest02\dotnet-docker\samples\dotnetapp\dotnetapp\obj\Debug\netcoreapp2.2\dotnetapp.csproj.CopyComplete
+X:\Development MP\IPCA Project\DockerTest02\dotnet-docker\samples\dotnetapp\dotnetapp\obj\Debug\netcoreapp2.2\dotnetapp.dll
+X:\Development MP\IPCA Project\DockerTest02\dotnet-docker\samples\dotnetapp\dotnetapp\obj\Debug\netcoreapp2.2\dotnetapp.pdb
