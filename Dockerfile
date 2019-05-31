@@ -1,5 +1,18 @@
-﻿FROM mcr.microsoft.com/dotnet/core/runtime:2.2
+﻿FROM microsoft/dotnet:2.2-sdk AS build-env
+WORKDIR /app
 
-COPY app/bin/Release/netcoreapp2.2/publish/ app/
+# Copy csproj and restore as distinct layers
+COPY src/*.csproj ./
+RUN dotnet restore
 
-ENTRYPOINT ["dotnet", "app/DockerTest01.dll"]
+# Copy everything else and build
+COPY . ./
+RUN dotnet publish -c Release -o out
+
+# Build runtime image
+#FROM microsoft/dotnet:aspnetcore-runtime
+WORKDIR /app
+#COPY --from=publish /app .
+ENTRYPOINT ["dotnet", "DockerTest01.dll"]
+
+#COPY app/bin/Release/netcoreapp2.2/publish/ app/

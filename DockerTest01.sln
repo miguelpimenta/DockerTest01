@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DockerTest01", "app\DockerTest01.csproj", "{5DDA0989-9EC3-4054-B401-DB38A14F1817}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DockerTest01", "src\DockerTest01.csproj", "{5DDA0989-9EC3-4054-B401-DB38A14F1817}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DockerFile", "DockerFile", "{37B0E1B2-DCE0-4FF4-AC3D-5BF195CB4C98}"
 	ProjectSection(SolutionItems) = preProject
